@@ -1,0 +1,13 @@
+package com.realestatemarketplace.realestatemarketplace;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RealEstateMarketplaceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(RealEstateMarketplaceApplication.class, args);
+    }
+
+}
