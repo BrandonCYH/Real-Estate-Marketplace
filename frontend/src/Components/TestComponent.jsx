@@ -1,0 +1,11 @@
+import React from 'react';
+
+function TestComponent() {
+  return (
+    <div>
+      <h2>This is a test component</h2>
+    </div>
+  );
+}
+
+export default TestComponent;
