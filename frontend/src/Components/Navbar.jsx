@@ -7,7 +7,8 @@ const Navbar = () => {
                 <Link to="/" className="text-black font-bold text-2xl md:px-20">Dwell</Link>
 
                 <div className="hidden md:flex space-x-6">
-                    <Link to="/real-estate-marketplace" className="text-gray-600 hover:text-real-navy font-medium">Home</Link>
+                    <Link to="/real-estate-marketplace"
+                          className="text-gray-600 hover:text-real-navy font-medium">Home</Link>
                     <Link to="/" className="text-gray-600 hover:text-real-navy font-medium">Buy</Link>
                     <Link to="/" className="text-gray-600 hover:text-real-navy font-medium">Rent</Link>
                     <Link to="/" className="text-gray-600 hover:text-real-navy font-medium">Sell</Link>
@@ -15,7 +16,9 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                    <button className="hidden md:inline-flex text-black">Sign In</button>
+                    <Link to="/sign-in">
+                        <button className="hidden md:inline-flex text-black">Sign In</button>
+                    </Link>
                     <button className="bg-black text-white px-4 py-2 rounded">
                         Get Started
                     </button>
