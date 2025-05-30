@@ -16,6 +16,8 @@ function HomePage() {
             .catch(error => {
                 console.error("Error fetching properties:", error); // Better to use console.error
             });
+
+
     }, []);
 
     return (<>
